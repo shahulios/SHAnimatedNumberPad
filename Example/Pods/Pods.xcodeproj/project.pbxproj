@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068ECA21A968AF8B8B7883431AA1D1BB /* Pods-SHAnimatedNumberPad_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1063DBE73AE28D282552DB64B435C19C /* Pods-SHAnimatedNumberPad_Example-dummy.m */; };
+		37C163125D8E996B035E90E08C5CCCE3 /* SHAnimatedNumberPad-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A3FADEB814BAB2DC7A61F972EDBE0A2 /* SHAnimatedNumberPad-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DEB6F76A480A5D9EAA1C3A05FD7740F /* Pods-SHAnimatedNumberPad_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE076A224758AE10679385C1C87D358 /* Pods-SHAnimatedNumberPad_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60FA9BC7056FFE11BDC50FB01FF26E21 /* SHAnimatedNumberPad-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B4D5CC1D13C828771014933C265656 /* SHAnimatedNumberPad-dummy.m */; };
+		6A26C5A326C632924A80238653626B2F /* Pods-SHAnimatedNumberPad_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69AA9FE21A4CB883B473D7D7DA7E56AA /* Pods-SHAnimatedNumberPad_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		782D3CC330B2309F696EF64275E16087 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB48360B21EF398222E4836AD82A98 /* ReplaceMe.swift */; };
+		7A73A09C24AC58224901BDE236FF29F9 /* Pods-SHAnimatedNumberPad_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBB8DD960CE83D372B7260B748064CA /* Pods-SHAnimatedNumberPad_Tests-dummy.m */; };
+		9668491062F262110FB6477978958E0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		C08CD20A3B46C0997F6A74CC9979F371 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		E29882EEE182B40472BCA8DCDBC4DF4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBF30B43AEFEAC11D913BB61047F6081 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B665B7D54D2DD88F157B951A4EF0D4A7;
+			remoteInfo = SHAnimatedNumberPad;
+		};
+		ED92B6EB95C2913799EF3208BA2ECBD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7242D4B14FDED6429432A08B55492816;
+			remoteInfo = "Pods-SHAnimatedNumberPad_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E19C79386D2C4B5C91E2298425E72C0 /* SHAnimatedNumberPad.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SHAnimatedNumberPad.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1063DBE73AE28D282552DB64B435C19C /* Pods-SHAnimatedNumberPad_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHAnimatedNumberPad_Example-dummy.m"; sourceTree = "<group>"; };
+		1BBB8DD960CE83D372B7260B748064CA /* Pods-SHAnimatedNumberPad_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SHAnimatedNumberPad_Tests-dummy.m"; sourceTree = "<group>"; };
+		1E8E7465455BAB8B2113FFF79C3731D9 /* SHAnimatedNumberPad-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHAnimatedNumberPad-prefix.pch"; sourceTree = "<group>"; };
+		20DEA9AB5ECB9960F3CAFF831724D1FE /* SHAnimatedNumberPad.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SHAnimatedNumberPad.xcconfig; sourceTree = "<group>"; };
+		23D868263E61C02764313199CD1586D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2A1E1C61BA65F2FDAE5F925DC977C720 /* Pods-SHAnimatedNumberPad_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHAnimatedNumberPad_Example-resources.sh"; sourceTree = "<group>"; };
+		3053925B4857E73A710A4545BCD9F4FC /* Pods-SHAnimatedNumberPad_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHAnimatedNumberPad_Tests.modulemap"; sourceTree = "<group>"; };
+		38D1A80EE694A3AC5968799A91C0422A /* Pods-SHAnimatedNumberPad_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHAnimatedNumberPad_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		38FF77F363D089D8A96DD1F8839D4B14 /* Pods-SHAnimatedNumberPad_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHAnimatedNumberPad_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A3FADEB814BAB2DC7A61F972EDBE0A2 /* SHAnimatedNumberPad-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SHAnimatedNumberPad-umbrella.h"; sourceTree = "<group>"; };
+		49A55608BC1203DE8E4512F30D668653 /* Pods-SHAnimatedNumberPad_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHAnimatedNumberPad_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFD96DC8D0AFA938523229941690C74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		545A98519F95A58AEC06C65B6772BDB2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		617EAC88D2310CE1A9943EDEDE1D1763 /* Pods-SHAnimatedNumberPad_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHAnimatedNumberPad_Example-frameworks.sh"; sourceTree = "<group>"; };
+		69AA9FE21A4CB883B473D7D7DA7E56AA /* Pods-SHAnimatedNumberPad_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHAnimatedNumberPad_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6FBB328D6FEB3D1940285757A92D07A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6FC63F0C05A8E81ACE178F51C200C7ED /* SHAnimatedNumberPad.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SHAnimatedNumberPad.modulemap; sourceTree = "<group>"; };
+		79000E349FB3ED6855EAE88713FBE0B0 /* Pods-SHAnimatedNumberPad_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHAnimatedNumberPad_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		885CA09886503B8B0A77E9544B5C85AE /* Pods-SHAnimatedNumberPad_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SHAnimatedNumberPad_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AECAF7570CF816B9813EFA1220D3291 /* Pods-SHAnimatedNumberPad_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHAnimatedNumberPad_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8DDC82EEBCEB290802A5D282578E52B9 /* Pods-SHAnimatedNumberPad_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SHAnimatedNumberPad_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BE076A224758AE10679385C1C87D358 /* Pods-SHAnimatedNumberPad_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SHAnimatedNumberPad_Example-umbrella.h"; sourceTree = "<group>"; };
+		B73A45796138802AAB13EE0D9D9BFACE /* Pods-SHAnimatedNumberPad_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHAnimatedNumberPad_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0B4D5CC1D13C828771014933C265656 /* SHAnimatedNumberPad-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SHAnimatedNumberPad-dummy.m"; sourceTree = "<group>"; };
+		CD318787D7DA3D4B39132B09DA09838B /* Pods-SHAnimatedNumberPad_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SHAnimatedNumberPad_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D2CB48360B21EF398222E4836AD82A98 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SHAnimatedNumberPad/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCE4F0B52DBF1659EF8A6A7DE55D8037 /* Pods_SHAnimatedNumberPad_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHAnimatedNumberPad_Example.framework; path = "Pods-SHAnimatedNumberPad_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC81E46C1A12924B80B8005ADC381A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E141C3680F0DD45C16F7935C6A80B1C0 /* Pods-SHAnimatedNumberPad_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SHAnimatedNumberPad_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB74A4EBF34A9F7AAAB87F52D102931B /* Pods-SHAnimatedNumberPad_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SHAnimatedNumberPad_Tests-resources.sh"; sourceTree = "<group>"; };
+		EC50277E75D680588EFD62A249549260 /* Pods_SHAnimatedNumberPad_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SHAnimatedNumberPad_Tests.framework; path = "Pods-SHAnimatedNumberPad_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF36FF3B3CA3A5155488B4B4E0709EC2 /* SHAnimatedNumberPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SHAnimatedNumberPad.framework; path = SHAnimatedNumberPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EDD0852307F8D7BA6356CD65AC87487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08CD20A3B46C0997F6A74CC9979F371 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877DD7CE2D3AB26015B467D5A249E077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9668491062F262110FB6477978958E0C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E998436B557C146745D6178C4567F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29882EEE182B40472BCA8DCDBC4DF4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010090CCE9040A0068BF336AF178EEB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEC81E46C1A12924B80B8005ADC381A9 /* Info.plist */,
+				6FC63F0C05A8E81ACE178F51C200C7ED /* SHAnimatedNumberPad.modulemap */,
+				20DEA9AB5ECB9960F3CAFF831724D1FE /* SHAnimatedNumberPad.xcconfig */,
+				C0B4D5CC1D13C828771014933C265656 /* SHAnimatedNumberPad-dummy.m */,
+				1E8E7465455BAB8B2113FFF79C3731D9 /* SHAnimatedNumberPad-prefix.pch */,
+				3A3FADEB814BAB2DC7A61F972EDBE0A2 /* SHAnimatedNumberPad-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SHAnimatedNumberPad";
+			sourceTree = "<group>";
+		};
+		3740408034E1E8BB1CA6D872849C6454 /* Pods-SHAnimatedNumberPad_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4AFD96DC8D0AFA938523229941690C74 /* Info.plist */,
+				3053925B4857E73A710A4545BCD9F4FC /* Pods-SHAnimatedNumberPad_Tests.modulemap */,
+				E141C3680F0DD45C16F7935C6A80B1C0 /* Pods-SHAnimatedNumberPad_Tests-acknowledgements.markdown */,
+				885CA09886503B8B0A77E9544B5C85AE /* Pods-SHAnimatedNumberPad_Tests-acknowledgements.plist */,
+				1BBB8DD960CE83D372B7260B748064CA /* Pods-SHAnimatedNumberPad_Tests-dummy.m */,
+				38D1A80EE694A3AC5968799A91C0422A /* Pods-SHAnimatedNumberPad_Tests-frameworks.sh */,
+				EB74A4EBF34A9F7AAAB87F52D102931B /* Pods-SHAnimatedNumberPad_Tests-resources.sh */,
+				69AA9FE21A4CB883B473D7D7DA7E56AA /* Pods-SHAnimatedNumberPad_Tests-umbrella.h */,
+				CD318787D7DA3D4B39132B09DA09838B /* Pods-SHAnimatedNumberPad_Tests.debug.xcconfig */,
+				B73A45796138802AAB13EE0D9D9BFACE /* Pods-SHAnimatedNumberPad_Tests.release.xcconfig */,
+			);
+			name = "Pods-SHAnimatedNumberPad_Tests";
+			path = "Target Support Files/Pods-SHAnimatedNumberPad_Tests";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4C592418A18A200A9F4DAE410F342C3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5586E4DFD2E4F4F3382B3A42B53C659F /* Pods-SHAnimatedNumberPad_Example */,
+				3740408034E1E8BB1CA6D872849C6454 /* Pods-SHAnimatedNumberPad_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5586E4DFD2E4F4F3382B3A42B53C659F /* Pods-SHAnimatedNumberPad_Example */ = {
+			isa = PBXGroup;
+			children = (
+				545A98519F95A58AEC06C65B6772BDB2 /* Info.plist */,
+				8DDC82EEBCEB290802A5D282578E52B9 /* Pods-SHAnimatedNumberPad_Example.modulemap */,
+				79000E349FB3ED6855EAE88713FBE0B0 /* Pods-SHAnimatedNumberPad_Example-acknowledgements.markdown */,
+				38FF77F363D089D8A96DD1F8839D4B14 /* Pods-SHAnimatedNumberPad_Example-acknowledgements.plist */,
+				1063DBE73AE28D282552DB64B435C19C /* Pods-SHAnimatedNumberPad_Example-dummy.m */,
+				617EAC88D2310CE1A9943EDEDE1D1763 /* Pods-SHAnimatedNumberPad_Example-frameworks.sh */,
+				2A1E1C61BA65F2FDAE5F925DC977C720 /* Pods-SHAnimatedNumberPad_Example-resources.sh */,
+				9BE076A224758AE10679385C1C87D358 /* Pods-SHAnimatedNumberPad_Example-umbrella.h */,
+				49A55608BC1203DE8E4512F30D668653 /* Pods-SHAnimatedNumberPad_Example.debug.xcconfig */,
+				8AECAF7570CF816B9813EFA1220D3291 /* Pods-SHAnimatedNumberPad_Example.release.xcconfig */,
+			);
+			name = "Pods-SHAnimatedNumberPad_Example";
+			path = "Target Support Files/Pods-SHAnimatedNumberPad_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E32D3AA02BCA5201173AEF4DA313D2CA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CD4AA1C953372D6E850E14BBCC734846 /* Products */,
+				4C592418A18A200A9F4DAE410F342C3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B513158AA46D8FC88399691023FFBC88 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				23D868263E61C02764313199CD1586D5 /* LICENSE */,
+				6FBB328D6FEB3D1940285757A92D07A6 /* README.md */,
+				0E19C79386D2C4B5C91E2298425E72C0 /* SHAnimatedNumberPad.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4AA1C953372D6E850E14BBCC734846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCE4F0B52DBF1659EF8A6A7DE55D8037 /* Pods_SHAnimatedNumberPad_Example.framework */,
+				EC50277E75D680588EFD62A249549260 /* Pods_SHAnimatedNumberPad_Tests.framework */,
+				FF36FF3B3CA3A5155488B4B4E0709EC2 /* SHAnimatedNumberPad.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E32D3AA02BCA5201173AEF4DA313D2CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC4A26679485A4D14057C174EB4AB9C0 /* SHAnimatedNumberPad */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FC4A26679485A4D14057C174EB4AB9C0 /* SHAnimatedNumberPad */ = {
+			isa = PBXGroup;
+			children = (
+				D2CB48360B21EF398222E4836AD82A98 /* ReplaceMe.swift */,
+				B513158AA46D8FC88399691023FFBC88 /* Pod */,
+				010090CCE9040A0068BF336AF178EEB3 /* Support Files */,
+			);
+			name = SHAnimatedNumberPad;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B5C353EF4B0479B812CFB07931691C5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A26C5A326C632924A80238653626B2F /* Pods-SHAnimatedNumberPad_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57FAA1E607FD6A32475CF8620BDF2A79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEB6F76A480A5D9EAA1C3A05FD7740F /* Pods-SHAnimatedNumberPad_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D18FA8144D797F395D934917E80BB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C163125D8E996B035E90E08C5CCCE3 /* SHAnimatedNumberPad-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		625AC98F86909B7BBBFC48BD56464524 /* Pods-SHAnimatedNumberPad_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9FC010C594C5047F52100A6EE65B88 /* Build configuration list for PBXNativeTarget "Pods-SHAnimatedNumberPad_Tests" */;
+			buildPhases = (
+				0B5C353EF4B0479B812CFB07931691C5 /* Headers */,
+				FF95C84514EC54CB1832CA7D37F2FE59 /* Sources */,
+				8E998436B557C146745D6178C4567F08 /* Frameworks */,
+				20252BA24378C1A9C8CB3D11CBB69F7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B86B2051F684729FFC46C9C1C42DD2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SHAnimatedNumberPad_Tests";
+			productName = "Pods-SHAnimatedNumberPad_Tests";
+			productReference = EC50277E75D680588EFD62A249549260 /* Pods_SHAnimatedNumberPad_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7242D4B14FDED6429432A08B55492816 /* Pods-SHAnimatedNumberPad_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5601579D58E2F83E0319CB70999C54D1 /* Build configuration list for PBXNativeTarget "Pods-SHAnimatedNumberPad_Example" */;
+			buildPhases = (
+				57FAA1E607FD6A32475CF8620BDF2A79 /* Headers */,
+				267D57A8F865FC88631B7B0862335D76 /* Sources */,
+				877DD7CE2D3AB26015B467D5A249E077 /* Frameworks */,
+				F261DF570DDD7984DF00F7FB5CA4DDFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				267481C6748B9B46DA6245492161FD0A /* PBXTargetDependency */,
+			);
+			name = "Pods-SHAnimatedNumberPad_Example";
+			productName = "Pods-SHAnimatedNumberPad_Example";
+			productReference = DCE4F0B52DBF1659EF8A6A7DE55D8037 /* Pods_SHAnimatedNumberPad_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B665B7D54D2DD88F157B951A4EF0D4A7 /* SHAnimatedNumberPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC39EF7108B71AE3F7359197D94C6020 /* Build configuration list for PBXNativeTarget "SHAnimatedNumberPad" */;
+			buildPhases = (
+				A8D18FA8144D797F395D934917E80BB9 /* Headers */,
+				18619D694FDB866F693D3DB8D695AA81 /* Sources */,
+				0EDD0852307F8D7BA6356CD65AC87487 /* Frameworks */,
+				554E8AB7493CFC22570AA69DC08E9DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHAnimatedNumberPad;
+			productName = SHAnimatedNumberPad;
+			productReference = FF36FF3B3CA3A5155488B4B4E0709EC2 /* SHAnimatedNumberPad.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CD4AA1C953372D6E850E14BBCC734846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7242D4B14FDED6429432A08B55492816 /* Pods-SHAnimatedNumberPad_Example */,
+				625AC98F86909B7BBBFC48BD56464524 /* Pods-SHAnimatedNumberPad_Tests */,
+				B665B7D54D2DD88F157B951A4EF0D4A7 /* SHAnimatedNumberPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20252BA24378C1A9C8CB3D11CBB69F7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554E8AB7493CFC22570AA69DC08E9DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F261DF570DDD7984DF00F7FB5CA4DDFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18619D694FDB866F693D3DB8D695AA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782D3CC330B2309F696EF64275E16087 /* ReplaceMe.swift in Sources */,
+				60FA9BC7056FFE11BDC50FB01FF26E21 /* SHAnimatedNumberPad-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		267D57A8F865FC88631B7B0862335D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				068ECA21A968AF8B8B7883431AA1D1BB /* Pods-SHAnimatedNumberPad_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF95C84514EC54CB1832CA7D37F2FE59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A73A09C24AC58224901BDE236FF29F9 /* Pods-SHAnimatedNumberPad_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		267481C6748B9B46DA6245492161FD0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SHAnimatedNumberPad;
+			target = B665B7D54D2DD88F157B951A4EF0D4A7 /* SHAnimatedNumberPad */;
+			targetProxy = DBF30B43AEFEAC11D913BB61047F6081 /* PBXContainerItemProxy */;
+		};
+		40B86B2051F684729FFC46C9C1C42DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SHAnimatedNumberPad_Example";
+			target = 7242D4B14FDED6429432A08B55492816 /* Pods-SHAnimatedNumberPad_Example */;
+			targetProxy = ED92B6EB95C2913799EF3208BA2ECBD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10663FA8FF77657F395C214FEEAC3B89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73A45796138802AAB13EE0D9D9BFACE /* Pods-SHAnimatedNumberPad_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Tests/Pods-SHAnimatedNumberPad_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50646285DD9FD95AF390BDA3FB1948EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		615882658494F20F43B241F84724636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A55608BC1203DE8E4512F30D668653 /* Pods-SHAnimatedNumberPad_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Example/Pods-SHAnimatedNumberPad_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F3A31C4030456EB8F1755795453D2EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DEA9AB5ECB9960F3CAFF831724D1FE /* SHAnimatedNumberPad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHAnimatedNumberPad/SHAnimatedNumberPad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHAnimatedNumberPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHAnimatedNumberPad/SHAnimatedNumberPad.modulemap";
+				PRODUCT_MODULE_NAME = SHAnimatedNumberPad;
+				PRODUCT_NAME = SHAnimatedNumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BACEBF6C69159091D8447AB98B605DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AECAF7570CF816B9813EFA1220D3291 /* Pods-SHAnimatedNumberPad_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Example/Pods-SHAnimatedNumberPad_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F5C384CB744C2C4D9562424488A4D41D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD318787D7DA3D4B39132B09DA09838B /* Pods-SHAnimatedNumberPad_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SHAnimatedNumberPad_Tests/Pods-SHAnimatedNumberPad_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC3887493D0F227177DDD588B25FFF22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DEA9AB5ECB9960F3CAFF831724D1FE /* SHAnimatedNumberPad.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SHAnimatedNumberPad/SHAnimatedNumberPad-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SHAnimatedNumberPad/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SHAnimatedNumberPad/SHAnimatedNumberPad.modulemap";
+				PRODUCT_MODULE_NAME = SHAnimatedNumberPad;
+				PRODUCT_NAME = SHAnimatedNumberPad;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50646285DD9FD95AF390BDA3FB1948EA /* Debug */,
+				58DCB2BA7C34E84C00C38CEF18A96D11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9FC010C594C5047F52100A6EE65B88 /* Build configuration list for PBXNativeTarget "Pods-SHAnimatedNumberPad_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5C384CB744C2C4D9562424488A4D41D /* Debug */,
+				10663FA8FF77657F395C214FEEAC3B89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5601579D58E2F83E0319CB70999C54D1 /* Build configuration list for PBXNativeTarget "Pods-SHAnimatedNumberPad_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615882658494F20F43B241F84724636E /* Debug */,
+				BACEBF6C69159091D8447AB98B605DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC39EF7108B71AE3F7359197D94C6020 /* Build configuration list for PBXNativeTarget "SHAnimatedNumberPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F3A31C4030456EB8F1755795453D2EA /* Debug */,
+				FC3887493D0F227177DDD588B25FFF22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

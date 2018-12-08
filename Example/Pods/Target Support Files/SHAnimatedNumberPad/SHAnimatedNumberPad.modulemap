@@ -1,0 +1,6 @@
+framework module SHAnimatedNumberPad {
+  umbrella header "SHAnimatedNumberPad-umbrella.h"
+
+  export *
+  module * { export * }
+}

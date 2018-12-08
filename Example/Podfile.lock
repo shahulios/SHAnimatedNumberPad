@@ -1,0 +1,16 @@
+PODS:
+  - SHAnimatedNumberPad (0.1.0)
+
+DEPENDENCIES:
+  - SHAnimatedNumberPad (from `../`)
+
+EXTERNAL SOURCES:
+  SHAnimatedNumberPad:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SHAnimatedNumberPad: 6ad399a4f151c0885eba736dcf7299aa9efe4c24
+
+PODFILE CHECKSUM: 0a7f6f2dd055417dc7b574dd50e1447f99d50e51
+
+COCOAPODS: 1.5.3
