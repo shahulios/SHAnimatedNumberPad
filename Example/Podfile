@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SHAnimatedNumberPad_Example' do
+  pod 'SHAnimatedNumberPad', :path => '../'
+
+  target 'SHAnimatedNumberPad_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
